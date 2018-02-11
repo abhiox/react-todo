@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.right{
+	margin-left: auto;
+}
+
+.strike{
+	text-decoration: line-through;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+li.list-group-item{
+    transition: all 0.25s ease-in-out;
+}
+
+li.list-group-item:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
